@@ -35,15 +35,15 @@
             this.mapControl1 = new DevExpress.XtraMap.MapControl();
             this.imageLayer1 = new DevExpress.XtraMap.ImageLayer();
             this.wmsDataProvider1 = new DevExpress.XtraMap.WmsDataProvider();
-            this.stackPanel2 = new DevExpress.Utils.Layout.StackPanel();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.tablePanel1 = new DevExpress.Utils.Layout.TablePanel();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).BeginInit();
             this.stackPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mapControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).BeginInit();
-            this.stackPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).BeginInit();
+            this.tablePanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // stackPanel1
@@ -52,6 +52,7 @@
             this.stackPanel1.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.stackPanel1.Appearance.Options.UseBackColor = true;
             this.stackPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tablePanel1.SetColumn(this.stackPanel1, 1);
             this.stackPanel1.Controls.Add(this.simpleButton1);
             this.stackPanel1.Controls.Add(this.simpleButton2);
             this.stackPanel1.Controls.Add(this.simpleButton3);
@@ -60,19 +61,22 @@
             this.stackPanel1.Controls.Add(this.simpleButton6);
             this.stackPanel1.Controls.Add(this.simpleButton7);
             this.stackPanel1.LayoutDirection = DevExpress.Utils.Layout.StackPanelLayoutDirection.RightToLeft;
-            this.stackPanel1.Location = new System.Drawing.Point(3, 53);
+            this.stackPanel1.Location = new System.Drawing.Point(794, 70);
+            this.stackPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(386, 54);
+            this.tablePanel1.SetRow(this.stackPanel1, 2);
+            this.stackPanel1.Size = new System.Drawing.Size(515, 54);
             this.stackPanel1.TabIndex = 5;
             // 
             // simpleButton1
             // 
             this.simpleButton1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
             this.simpleButton1.ImageOptions.SvgImageSize = new System.Drawing.Size(24, 24);
-            this.simpleButton1.Location = new System.Drawing.Point(335, 3);
+            this.simpleButton1.Location = new System.Drawing.Point(447, -4);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(4);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
-            this.simpleButton1.Size = new System.Drawing.Size(48, 48);
+            this.simpleButton1.Size = new System.Drawing.Size(64, 63);
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
@@ -80,40 +84,44 @@
             // 
             this.simpleButton2.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton2.ImageOptions.SvgImage")));
             this.simpleButton2.ImageOptions.SvgImageSize = new System.Drawing.Size(24, 24);
-            this.simpleButton2.Location = new System.Drawing.Point(281, 3);
+            this.simpleButton2.Location = new System.Drawing.Point(375, -4);
+            this.simpleButton2.Margin = new System.Windows.Forms.Padding(4);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
-            this.simpleButton2.Size = new System.Drawing.Size(48, 48);
+            this.simpleButton2.Size = new System.Drawing.Size(64, 63);
             this.simpleButton2.TabIndex = 1;
             // 
             // simpleButton3
             // 
             this.simpleButton3.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton3.ImageOptions.SvgImage")));
             this.simpleButton3.ImageOptions.SvgImageSize = new System.Drawing.Size(24, 24);
-            this.simpleButton3.Location = new System.Drawing.Point(227, 3);
+            this.simpleButton3.Location = new System.Drawing.Point(303, -4);
+            this.simpleButton3.Margin = new System.Windows.Forms.Padding(4);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
-            this.simpleButton3.Size = new System.Drawing.Size(48, 48);
+            this.simpleButton3.Size = new System.Drawing.Size(64, 63);
             this.simpleButton3.TabIndex = 2;
             // 
             // simpleButton4
             // 
             this.simpleButton4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton4.ImageOptions.SvgImage")));
             this.simpleButton4.ImageOptions.SvgImageSize = new System.Drawing.Size(24, 24);
-            this.simpleButton4.Location = new System.Drawing.Point(173, 3);
+            this.simpleButton4.Location = new System.Drawing.Point(231, -4);
+            this.simpleButton4.Margin = new System.Windows.Forms.Padding(4);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
-            this.simpleButton4.Size = new System.Drawing.Size(48, 48);
+            this.simpleButton4.Size = new System.Drawing.Size(64, 63);
             this.simpleButton4.TabIndex = 3;
             // 
             // simpleButton5
             // 
             this.simpleButton5.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton5.ImageOptions.SvgImage")));
             this.simpleButton5.ImageOptions.SvgImageSize = new System.Drawing.Size(24, 24);
-            this.simpleButton5.Location = new System.Drawing.Point(119, 3);
+            this.simpleButton5.Location = new System.Drawing.Point(159, -4);
+            this.simpleButton5.Margin = new System.Windows.Forms.Padding(4);
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
-            this.simpleButton5.Size = new System.Drawing.Size(48, 48);
+            this.simpleButton5.Size = new System.Drawing.Size(64, 63);
             this.simpleButton5.TabIndex = 4;
             this.simpleButton5.Click += new System.EventHandler(this.simpleButton5_Click);
             // 
@@ -121,20 +129,22 @@
             // 
             this.simpleButton6.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton6.ImageOptions.SvgImage")));
             this.simpleButton6.ImageOptions.SvgImageSize = new System.Drawing.Size(24, 24);
-            this.simpleButton6.Location = new System.Drawing.Point(65, 3);
+            this.simpleButton6.Location = new System.Drawing.Point(87, -4);
+            this.simpleButton6.Margin = new System.Windows.Forms.Padding(4);
             this.simpleButton6.Name = "simpleButton6";
             this.simpleButton6.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
-            this.simpleButton6.Size = new System.Drawing.Size(48, 48);
+            this.simpleButton6.Size = new System.Drawing.Size(64, 63);
             this.simpleButton6.TabIndex = 5;
             // 
             // simpleButton7
             // 
             this.simpleButton7.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton7.ImageOptions.SvgImage")));
             this.simpleButton7.ImageOptions.SvgImageSize = new System.Drawing.Size(24, 24);
-            this.simpleButton7.Location = new System.Drawing.Point(11, 3);
+            this.simpleButton7.Location = new System.Drawing.Point(15, -4);
+            this.simpleButton7.Margin = new System.Windows.Forms.Padding(4);
             this.simpleButton7.Name = "simpleButton7";
             this.simpleButton7.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
-            this.simpleButton7.Size = new System.Drawing.Size(48, 48);
+            this.simpleButton7.Size = new System.Drawing.Size(64, 63);
             this.simpleButton7.TabIndex = 6;
             this.simpleButton7.Click += new System.EventHandler(this.simpleButton7_Click);
             // 
@@ -145,27 +155,15 @@
             this.mapControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mapControl1.Layers.Add(this.imageLayer1);
             this.mapControl1.Location = new System.Drawing.Point(0, 0);
+            this.mapControl1.Margin = new System.Windows.Forms.Padding(4);
             this.mapControl1.Name = "mapControl1";
-            this.mapControl1.Size = new System.Drawing.Size(1132, 659);
+            this.mapControl1.Size = new System.Drawing.Size(1313, 757);
             this.mapControl1.TabIndex = 0;
             this.mapControl1.ZoomLevel = 5D;
             this.imageLayer1.DataProvider = this.wmsDataProvider1;
             this.imageLayer1.Name = "WmsLayer1";
             this.wmsDataProvider1.ServerUri = "http://ows.mundialis.de/services/service";
             this.wmsDataProvider1.ResponseCapabilities += new DevExpress.XtraMap.CapabilitiesRespondedEventHandler(this.wmsDataProvider1_ResponseCapabilities);
-            // 
-            // stackPanel2
-            // 
-            this.stackPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.stackPanel2.AutoSize = true;
-            this.stackPanel2.Controls.Add(this.labelControl1);
-            this.stackPanel2.Controls.Add(this.labelControl2);
-            this.stackPanel2.Controls.Add(this.stackPanel1);
-            this.stackPanel2.LayoutDirection = DevExpress.Utils.Layout.StackPanelLayoutDirection.TopDown;
-            this.stackPanel2.Location = new System.Drawing.Point(737, 546);
-            this.stackPanel2.Name = "stackPanel2";
-            this.stackPanel2.Size = new System.Drawing.Size(392, 110);
-            this.stackPanel2.TabIndex = 6;
             // 
             // labelControl1
             // 
@@ -176,9 +174,12 @@
             this.labelControl1.AppearanceHovered.BackColor = System.Drawing.Color.DimGray;
             this.labelControl1.AppearanceHovered.Options.UseBackColor = true;
             this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.Vertical;
-            this.labelControl1.Location = new System.Drawing.Point(8, 3);
+            this.tablePanel1.SetColumn(this.labelControl1, 1);
+            this.labelControl1.Location = new System.Drawing.Point(794, 4);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(375, 19);
+            this.tablePanel1.SetRow(this.labelControl1, 0);
+            this.labelControl1.Size = new System.Drawing.Size(515, 25);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Zoom Level: 5   ";
             // 
@@ -190,10 +191,13 @@
             this.labelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl2.AppearanceHovered.BackColor = System.Drawing.Color.DimGray;
             this.labelControl2.AppearanceHovered.Options.UseBackColor = true;
-            this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl2.Location = new System.Drawing.Point(8, 28);
+            this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.Vertical;
+            this.tablePanel1.SetColumn(this.labelControl2, 1);
+            this.labelControl2.Location = new System.Drawing.Point(794, 37);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(375, 19);
+            this.tablePanel1.SetRow(this.labelControl2, 1);
+            this.labelControl2.Size = new System.Drawing.Size(515, 25);
             this.labelControl2.TabIndex = 1;
             this.labelControl2.Text = "Center Point: 35, -89   ";
             // 
@@ -207,28 +211,51 @@
             this.labelControl3.AppearanceHovered.BackColor = System.Drawing.Color.DimGray;
             this.labelControl3.AppearanceHovered.Options.UseBackColor = true;
             this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.Vertical;
-            this.labelControl3.Location = new System.Drawing.Point(0, 635);
+            this.tablePanel1.SetColumn(this.labelControl3, 0);
+            this.labelControl3.Location = new System.Drawing.Point(4, 70);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(728, 24);
+            this.tablePanel1.SetRow(this.labelControl3, 2);
+            this.labelControl3.Size = new System.Drawing.Size(782, 54);
             this.labelControl3.TabIndex = 7;
             this.labelControl3.Text = " Provider: WMS  |  Layer: Dark  |  © OpenStreetMap Contributors";
             // 
+            // tablePanel1
+            // 
+            this.tablePanel1.Columns.AddRange(new DevExpress.Utils.Layout.TablePanelColumn[] {
+            new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 0.8F),
+            new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 55F)});
+            this.tablePanel1.ContentImageAlignment = System.Drawing.ContentAlignment.BottomRight;
+            this.tablePanel1.Controls.Add(this.labelControl1);
+            this.tablePanel1.Controls.Add(this.stackPanel1);
+            this.tablePanel1.Controls.Add(this.labelControl2);
+            this.tablePanel1.Controls.Add(this.labelControl3);
+            this.tablePanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tablePanel1.Location = new System.Drawing.Point(0, 629);
+            this.tablePanel1.Name = "tablePanel1";
+            this.tablePanel1.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F)});
+            this.tablePanel1.Size = new System.Drawing.Size(1313, 128);
+            this.tablePanel1.TabIndex = 8;
+            // 
             // ucMap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.labelControl3);
-            this.Controls.Add(this.stackPanel2);
+            this.Controls.Add(this.tablePanel1);
             this.Controls.Add(this.mapControl1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucMap";
-            this.Size = new System.Drawing.Size(1132, 659);
+            this.Size = new System.Drawing.Size(1313, 757);
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).EndInit();
             this.stackPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.mapControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).EndInit();
-            this.stackPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).EndInit();
+            this.tablePanel1.ResumeLayout(false);
+            this.tablePanel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -244,9 +271,9 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.Utils.Layout.StackPanel stackPanel2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.Utils.Layout.TablePanel tablePanel1;
     }
 }

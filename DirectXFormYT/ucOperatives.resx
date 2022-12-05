@@ -117,139 +117,148 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="svgImageCollection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="operativeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="Form1.HtmlTemplate.Styles" xml:space="preserve">
-    <value>body{
-	padding: 30px;
+  <data name="tileView1.TileHtmlTemplate.Styles" xml:space="preserve">
+    <value>.container {
+	padding:6px;
 }
-.titlebar{
+:root:select .content{
+	background-color:@HighlightAlternate/0.1;
+}
+.card {
+	font: 13px 'Segoe UI';
+	border-radius:3px;
+	background-color:@Window;
+	box-shadow:0px 2px 5px 0px #40000000;	
+	display:flex;
+}
+.stripe {
+	width:4px;
+	border-radius:3px 0px 0px 3px;
+}
+.content {
+	width:100%;
+	padding:12px;
+	display:flex;
+	flex-direction:column;
+}
+.top-block {
+	display:flex;
+	flex-direction:row;
+}
+.caption {
+	font-size:16px;
+	flex-grow:1;
+}
+.description {
+	/*margin-bottom:8px;
+	margin-top:6px;*/
+	white-space:pre-line;
+	user-select: text;
+}
+.bottom-block {
+	display:flex;
+	flex-direction:row;
+}
+.bottom-block-near {
+	flex-grow:1;
+}
+.members {
+	display:flex;
+}
+.initials {
+	color: @White;
+	font-weight: bold;
+	background-color: @Primary;
+	border-radius: 100px;
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left:3px;
+}
+.status {
+	font-size:20px;
+	align-self:flex-end;
+}
+.label {
+	color:@DisabledText;
+	margin-left: 20px;
+}
+.label2 {
+	color: @Blue;
+	margin-left: 20px;
+}
+.Active { background-color:@Success; }
+.Inactive { background-color:@Warning; }
+.Terminated { background-color:@Danger; }
+
+.avatar {
+	height: 48px;
+	width: 48px;
+	border-radius: 100%;
+	border: 1px solid rgb(50, 50, 50);
+	object-fit: contain;
+}
+.avatarar-box {
+	border-radius: 100%;
+}
+.hcontainer {
 	display: flex;
 	flex-direction: row;
-	height: 40px;
-	overflow: hidden;
-	margin: 10px;
-	margin-bottom: 2px;
+	align-items: center;
 }
-.shadowframe{
-	height: 100%;
-	border-radius: 14px;
-	box-shadow: 0px 8px 24px 0px @Blue/0.4;
-}
-.frame{	
+.vcontainer {
 	display: flex;
 	flex-direction: column;
-	border-radius: 14px;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	background-color: rgba(48, 48, 48, 1);
-	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
-	height: 100%;
-}
-
-.content{
-	flex-grow: 1;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	/*background-color: Green;*/
-}
-.button {
-	margin: 0px 10px 0px 20px;
-	padding: 8px;
-	opacity: 0.5;
-	height: 20px;
-	width: 20px;
-	object-fit: fill;
-}
-.button:hover{
-	border-bottom: 2px solid @Blue;
-}
-
-.logo{
-	object-fit: none;
-	fill: @Blue;
+	align-items: flex-start;
 	margin-left: 13px;
 }
-.logotext{
-	height: 35px;
-	border-radius: 5px;
-	font: 16px 'Inter V Extra Bold';
-	text-align: center;
+.imagebox{
 	display: flex;
-  	justify-content: center;
-  	align-content: center;
-  	flex-direction: column;
-	
+	flex-direction: column;
+	align-items: center;
 }
-.lgLeft{
-	color: @Blue;
-	margin-left: 3px;
-	font-weight: bold;
-}
-.lgRight{
-	margin-left: 2px;
-	margin-right: 40px;
-	color: Silver;
-	font-weight: bold;
-}
-
-
-.headerbutton{
-	height: 35px;
-	width: 100px;
-	color: @ControlText;
-	font: 14px 'Segoe UI';
-	text-align: center;
-	display: flex;
-  	flex-direction: column;
-  	justify-content: center;
-}
-.headerbutton:hover{
-	border-bottom: 3px solid @Blue;
-	font: 14px 'Inter';
-	font-weight: bolder;
-}
-.headerbutton-selected{
-	border-bottom: 3px solid @Blue;
-	font: 14px 'Inter';
-	font-weight: bolder;
-	color: @Blue;
-}
-
-.pageButtonContainer {
-	display: flex;
-	flex-direction: row;
-	height: 40px;
-	overflow: hidden;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	flex-shrink: 2;
-	/*background-color: Red;*/
+.labelrank {
+	color: DimGray;
 }</value>
   </data>
-  <data name="Form1.HtmlTemplate.Template" xml:space="preserve">
-    <value>&lt;template id="page-btn"&gt;
-	&lt;div class="headerbutton" id="${Id}" dx-class="{IsSelected:headerbutton-selected}"&gt;
-		${Caption}
-	&lt;/div&gt;
+  <data name="tileView1.TileHtmlTemplate.Template" xml:space="preserve">
+    <value>&lt;template id="member-template"&gt;
+	&lt;div class="initials" title="${FullName}"&gt;${Initials}&lt;/div&gt;
 &lt;/template&gt;
 
-&lt;div class="shadowframe"&gt;
-	&lt;div class="frame" id="frame"&gt;
-		&lt;div class="titlebar"&gt;
-			&lt;img class="logo" src="security_fingerprint" /&gt;
-			&lt;div class="logotext lgLeft"&gt;Far&lt;/div&gt;
-			&lt;div class="logotext lgRight"&gt;Seer&lt;/div&gt;
-
-			&lt;dx-collection class="pageButtonContainer" Items="${Pages}" ItemTemplate="page-btn"&gt;&lt;/dx-collection&gt;
-			
-			&lt;img class="button" src="bo_employee" id="loginbutton" /&gt;
-			&lt;dx-form-minimizebutton id="minimizebutton"&gt;&lt;/dx-form-minimizebutton&gt;
-        	&lt;dx-form-maximizebutton id="maximizebutton"&gt;&lt;/dx-form-maximizebutton&gt;
-        	&lt;dx-form-closebutton id="closebutton"&gt;&lt;/dx-form-closebutton&gt;
+&lt;div class="container"&gt;
+	&lt;div class="card"&gt;
+		
+		&lt;div class="stripe" dx-class="{Status}"&gt;&lt;/div&gt;
+		&lt;div class="content"&gt;
+			&lt;div class="hcontainer"&gt;
+				&lt;div class="imagebox"&gt;
+					&lt;div class="avatarar-box"&gt;&lt;img class="avatar" src="${Photo}"&gt;&lt;/div&gt;
+					&lt;div class="labelrank"&gt;${Rank}&lt;/div&gt;
+				&lt;/div&gt;
+				
+				&lt;div class="vcontainer"&gt;
+					&lt;div class="caption"&gt;&lt;b&gt;${AgentCode}&lt;/b&gt;&lt;/div&gt;
+					&lt;div class="hcontainer"&gt;
+						&lt;div class="description"&gt;Handler: &amp;nbsp;&lt;/div&gt;
+						&lt;div class="description"&gt;${Handler}&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="vcontainer"&gt;
+					&lt;div class="label"&gt;Join Date&lt;/div&gt;
+					&lt;div class="label2"&gt;${JoinDate}&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="vcontainer"&gt;
+					&lt;div class="label"&gt;Success Rate:&lt;/div&gt;
+					&lt;div class="label2"&gt;${SuccessRate}%&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
 		&lt;/div&gt;
-		&lt;div class="content" id="content"&gt;&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</value>
   </data>
