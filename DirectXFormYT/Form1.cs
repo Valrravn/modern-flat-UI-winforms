@@ -16,7 +16,7 @@ namespace DirectXFormYT {
             InitializeComponent();
 
             viewPages = new List<ViewPage>();
-            viewPages.Add(new ViewPage("page-home", "Operatives", npHome) { IsSelected = true });
+            viewPages.Add(new ViewPage("page-home", "Agents", npHome) { IsSelected = true });
             viewPages.Add(new ViewPage("page-transactions", "Map", npTransactions));
             viewPages.Add(new ViewPage("page-accounts", "Accounts", npAccounts));
             viewPages.Add(new ViewPage("page-payroll", "Payroll", npPayroll));

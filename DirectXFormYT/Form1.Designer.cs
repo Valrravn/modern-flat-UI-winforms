@@ -56,7 +56,7 @@
             this.directXFormContainerControl1.Margin = new System.Windows.Forms.Padding(4);
             this.directXFormContainerControl1.Name = "directXFormContainerControl1";
             this.directXFormContainerControl1.Padding = new System.Windows.Forms.Padding(0, 0, 500, 0);
-            this.directXFormContainerControl1.Size = new System.Drawing.Size(1776, 927);
+            this.directXFormContainerControl1.Size = new System.Drawing.Size(1776, 957);
             this.directXFormContainerControl1.TabIndex = 0;
             // 
             // navigationFrame1
@@ -80,7 +80,7 @@
             this.npPayroll,
             this.npSettings});
             this.navigationFrame1.SelectedPage = this.npHome;
-            this.navigationFrame1.Size = new System.Drawing.Size(1776, 927);
+            this.navigationFrame1.Size = new System.Drawing.Size(1776, 957);
             this.navigationFrame1.TabIndex = 0;
             this.navigationFrame1.Text = "navigationFrame1";
             this.navigationFrame1.TransitionAnimationProperties.FrameInterval = 4000;
@@ -94,7 +94,7 @@
             this.npHome.Controls.Add(this.ucOperatives1);
             this.npHome.Margin = new System.Windows.Forms.Padding(4);
             this.npHome.Name = "npHome";
-            this.npHome.Size = new System.Drawing.Size(1776, 927);
+            this.npHome.Size = new System.Drawing.Size(1776, 957);
             // 
             // npTransactions
             // 
@@ -104,7 +104,7 @@
             this.npTransactions.Controls.Add(this.ucMap1);
             this.npTransactions.Margin = new System.Windows.Forms.Padding(4);
             this.npTransactions.Name = "npTransactions";
-            this.npTransactions.Size = new System.Drawing.Size(1776, 927);
+            this.npTransactions.Size = new System.Drawing.Size(1776, 957);
             // 
             // npAccounts
             // 
@@ -114,7 +114,7 @@
             this.npAccounts.Controls.Add(this.labelControl3);
             this.npAccounts.Margin = new System.Windows.Forms.Padding(4);
             this.npAccounts.Name = "npAccounts";
-            this.npAccounts.Size = new System.Drawing.Size(1776, 927);
+            this.npAccounts.Size = new System.Drawing.Size(1776, 957);
             // 
             // labelControl3
             // 
@@ -128,7 +128,7 @@
             this.labelControl3.Location = new System.Drawing.Point(0, 0);
             this.labelControl3.Margin = new System.Windows.Forms.Padding(12);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(1776, 927);
+            this.labelControl3.Size = new System.Drawing.Size(1776, 957);
             this.labelControl3.TabIndex = 1;
             this.labelControl3.Text = "Accounts Page";
             // 
@@ -140,7 +140,7 @@
             this.npPayroll.Controls.Add(this.labelControl4);
             this.npPayroll.Margin = new System.Windows.Forms.Padding(4);
             this.npPayroll.Name = "npPayroll";
-            this.npPayroll.Size = new System.Drawing.Size(1776, 927);
+            this.npPayroll.Size = new System.Drawing.Size(1776, 957);
             // 
             // labelControl4
             // 
@@ -154,7 +154,7 @@
             this.labelControl4.Location = new System.Drawing.Point(0, 0);
             this.labelControl4.Margin = new System.Windows.Forms.Padding(12);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(1776, 927);
+            this.labelControl4.Size = new System.Drawing.Size(1776, 957);
             this.labelControl4.TabIndex = 1;
             this.labelControl4.Text = "Payroll Page";
             // 
@@ -166,7 +166,7 @@
             this.npSettings.Controls.Add(this.labelControl5);
             this.npSettings.Margin = new System.Windows.Forms.Padding(4);
             this.npSettings.Name = "npSettings";
-            this.npSettings.Size = new System.Drawing.Size(1776, 927);
+            this.npSettings.Size = new System.Drawing.Size(1776, 957);
             // 
             // labelControl5
             // 
@@ -180,7 +180,7 @@
             this.labelControl5.Location = new System.Drawing.Point(0, 0);
             this.labelControl5.Margin = new System.Windows.Forms.Padding(12);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(1776, 927);
+            this.labelControl5.Size = new System.Drawing.Size(1776, 957);
             this.labelControl5.TabIndex = 1;
             this.labelControl5.Text = "Settings Page";
             // 
@@ -198,7 +198,7 @@
             this.ucOperatives1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucOperatives1.Location = new System.Drawing.Point(0, 0);
             this.ucOperatives1.Name = "ucOperatives1";
-            this.ucOperatives1.Size = new System.Drawing.Size(1776, 927);
+            this.ucOperatives1.Size = new System.Drawing.Size(1776, 957);
             this.ucOperatives1.TabIndex = 0;
             // 
             // ucMap1
@@ -207,7 +207,7 @@
             this.ucMap1.Location = new System.Drawing.Point(0, 0);
             this.ucMap1.Margin = new System.Windows.Forms.Padding(4);
             this.ucMap1.Name = "ucMap1";
-            this.ucMap1.Size = new System.Drawing.Size(1776, 927);
+            this.ucMap1.Size = new System.Drawing.Size(1776, 957);
             this.ucMap1.TabIndex = 0;
             // 
             // Form1
@@ -217,7 +217,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ChildControls.Add(this.directXFormContainerControl1);
-            this.ClientSize = new System.Drawing.Size(1940, 1171);
+            this.ClientSize = new System.Drawing.Size(1940, 1201);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
             this.HtmlImages = this.svgImageCollection1;
